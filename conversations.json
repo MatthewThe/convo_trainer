@@ -1,0 +1,197 @@
+{
+    "conversations": [
+        {
+            "context": "à la boulangerie-pâtisserie",
+            "dialogue": [
+                {
+                    "speaker": "Vendeuse",
+                    "line": "Madame ?"
+                },
+                {
+                    "speaker": "Client",
+                    "line": "Bonjour madame, je voudrais un croissant au beurre, deux pains au chocolat et une brioche au sucre, s'il vous plaît."
+                },
+                {
+                    "speaker": "Vendeuse",
+                    "line": "Oui, madame, et avec ceci ?"
+                },
+                {
+                    "speaker": "Client",
+                    "line": "Je vais prendre aussi une tarte pour six personnes."
+                },
+                {
+                    "speaker": "Vendeuse",
+                    "line": "Qu'est-ce que vous préférez comme tarte ? Nous avons des tartes aux pommes, aux fraises, au citron."
+                },
+                {
+                    "speaker": "Client",
+                    "line": "Une belle tarte aux fraises, c'est très bien."
+                }
+            ]
+        },
+        {
+            "context": "à la poste",
+            "dialogue": [
+                {
+                    "speaker": "Client",
+                    "line": "Bonjour monsieur, je voudrais envoyer ce paquet aux États-Unis, s'il vous plaît."
+                },
+                {
+                    "speaker": "Employé",
+                    "line": "Oui, en tarif normal ou en prioritaire ?"
+                },
+                {
+                    "speaker": "Client",
+                    "line": "Prioritaire, s'il vous plaît."
+                },
+                {
+                    "speaker": "Employé",
+                    "line": "D'abord, vous devez remplir cette fiche de douane."
+                },
+                {
+                    "speaker": "Client",
+                    "line": "Ah oui, contenu du paquet : un livre de cuisine."
+                },
+                {
+                    "speaker": "Employé",
+                    "line": "Merci. Voilà, mademoiselle, ça fait 8 euros 50. Il vous faut autre chose ?"
+                },
+                {
+                    "speaker": "Client",
+                    "line": "Oui, je voudrais aussi un carnet et du câble pour le web, s'il vous plaît."
+                },
+                {
+                    "speaker": "Employé",
+                    "line": "Ça fait 1 euro 50. Ce sera tout ?"
+                },
+                {
+                    "speaker": "Client",
+                    "line": "Est-ce que vous avez aussi des jolis timbres ?"
+                },
+                {
+                    "speaker": "Employé",
+                    "line": "Voilà, nous avons des timbres qui représentent les principaux monuments de France."
+                },
+                {
+                    "speaker": "Client",
+                    "line": "C'est parfait. Alors, donnez-moi dix timbres, s'il vous plaît."
+                },
+                {
+                    "speaker": "Employé",
+                    "line": "Voilà, au total cela fera 16 euros."
+                }
+            ]
+        },
+        {
+            "context": "au marché",
+            "dialogue": [
+                {
+                    "speaker": "Vendeuse",
+                    "line": "Bonjour madame, vous désirez ?"
+                },
+                {
+                    "speaker": "Client",
+                    "line": "Je voudrais un kilo de tomates, deux courgettes et un poivron, s'il vous plaît."
+                },
+                {
+                    "speaker": "Vendeuse",
+                    "line": "Voilà, madame. Et avec ceci ?"
+                },
+                {
+                    "speaker": "Client",
+                    "line": "Je vais prendre aussi quatre pommes et une livre de fraises."
+                },
+                {
+                    "speaker": "Vendeuse",
+                    "line": "Voilà, ce sera tout ?"
+                },
+                {
+                    "speaker": "Client",
+                    "line": "Non, je voudrais aussi un peu de persil."
+                }
+            ]
+        },
+        {
+            "context": "à l'épicerie",
+            "dialogue": [
+                {
+                    "speaker": "Client",
+                    "line": "Alors, il me faut du jambon, du comté, de la crème fraîche, des œufs, de l'eau."
+                },
+                {
+                    "speaker": "Client",
+                    "line": "Bonjour monsieur, je voudrais un morceau de comté, s'il vous plaît."
+                },
+                {
+                    "speaker": "Épicier",
+                    "line": "Voilà, monsieur. Et avec ceci ?"
+                },
+                {
+                    "speaker": "Client",
+                    "line": "Donnez-moi aussi un petit pot de crème fraîche et une douzaine d'œufs."
+                },
+                {
+                    "speaker": "Épicier",
+                    "line": "Voilà, c'est tout ?"
+                },
+                {
+                    "speaker": "Client",
+                    "line": "Non, il me faut aussi quatre tranches de jambon, s'il vous plaît, et deux bouteilles d'eau plate."
+                }
+            ]
+        },
+        {
+            "context": "dans une papeterie",
+            "dialogue": [
+                {
+                    "speaker": "Vendeur",
+                    "line": "Bonjour monsieur, je peux vous renseigner ?"
+                },
+                {
+                    "speaker": "Client",
+                    "line": "Oui, je voudrais voir les stylos à plume, s'il vous plaît."
+                },
+                {
+                    "speaker": "Vendeur",
+                    "line": "Oui, vous voulez mettre combien ?"
+                },
+                {
+                    "speaker": "Client",
+                    "line": "Je ne sais pas, 40-50 euros, ça dépend."
+                },
+                {
+                    "speaker": "Vendeur",
+                    "line": "Alors, regardez ici, c'est ce que nous avons. Celui-ci coûte 75 euros, monsieur."
+                },
+                {
+                    "speaker": "Client",
+                    "line": "Et vous pouvez me dire le prix de ce stylo noir ?"
+                },
+                {
+                    "speaker": "Vendeur",
+                    "line": "Bien sûr, il fait 32 euros."
+                },
+                {
+                    "speaker": "Client",
+                    "line": "Et ce stylo bleu là ?"
+                },
+                {
+                    "speaker": "Vendeur",
+                    "line": "Tous ces stylos sont à 47 euros."
+                },
+                {
+                    "speaker": "Client",
+                    "line": "Alors, je vais prendre le bleu."
+                },
+                {
+                    "speaker": "Vendeur",
+                    "line": "C'est pour offrir ?"
+                },
+                {
+                    "speaker": "Client",
+                    "line": "Oui, s'il vous plaît."
+                }
+            ]
+        }
+    ]
+}
