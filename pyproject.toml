@@ -11,6 +11,7 @@ packages = [{include = "convo_trainer"}]
 python = "^3.9"
 kivymd = "^1.2.0"
 youtube-transcript-api = "^0.6.2"
+flask = "^3.0.3"
 
 
 [build-system]
