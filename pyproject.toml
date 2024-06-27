@@ -4,14 +4,16 @@ version = "0.1.0"
 description = "Conversation training with AI"
 authors = ["Matthew The <matthew.the@tum.de>"]
 license = "Apache 2.0"
-readme = "README.md"
+readme = "ReadMe.md"
 packages = [{include = "convo_trainer"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-kivymd = "^1.2.0"
-youtube-transcript-api = "^0.6.2"
+# kivymd = "^1.2.0"
+# youtube-transcript-api = "^0.6.2"
 flask = "^3.0.3"
+flask-cors = "^4.0.1"
+pandas = "^2.2.2"
 
 
 [build-system]
