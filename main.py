@@ -58,18 +58,22 @@ def add_word_counts():
 def vocabulary_progress(language_code):
     if language_code not in word_counters:
         word_counters[language_code] = WordCounter(language_code)
-    result_df = word_counters[language_code].get_results()
-    result_df = result_df[result_df["rank"] <= 500].set_index("rank")
-    top_n_df = pd.DataFrame(index=range(1, 501))
-    result_df = top_n_df.join(result_df)
-    result_df = result_df.fillna("0")
-    result_df.index.name = "rank"
-    result_df = result_df.reset_index()
+    result_df = word_counters[language_code].get_current_progress()
     return (
         Response(result_df.to_json(orient="records"), mimetype="application/json"),
         200,
     )
 
+
+@app.route("/vocabulary_stats/<language_code>", methods=["GET"])
+def vocabulary_stats(language_code):
+    if language_code not in word_counters:
+        word_counters[language_code] = WordCounter(language_code)
+    result_df = word_counters[language_code].get_current_stats()
+    return (
+        Response(result_df.to_json(orient="records"), mimetype="application/json"),
+        200,
+    )
 
 if __name__ == "__main__":
     app.run(debug=True)
